@@ -1,0 +1,30 @@
+/* navbar */
+.agile-login{
+  text-align: right;
+}
+
+@media (min-width: 768px){
+  .navbar-nav {
+    margin: 0;
+    margin-left: 17.5%;
+  }
+}
+@media (min-width: 1074px) and (max-width: 1090px){
+  .navbar-nav {
+    margin-left: 12%;
+  }
+}
+@media (max-width: 991px){
+  .w3ls_logo_products_left1 {
+    margin-top: 0;
+    width: 33.33%;
+  }
+}
+@media (max-width: 667px){
+  .w3ls_logo_products_left1 {
+      width: 100%;
+      text-align: center;
+  }
+}
+/* navbarend */
+

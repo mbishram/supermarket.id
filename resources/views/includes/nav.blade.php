@@ -2,14 +2,12 @@
 <div class="agileits_header">
   <div class="container">
     <div class="w3l_offers">
-      <p>SALE UP TO 70% OFF. USE CODE "SALE70%" . <a href="products">SHOP NOW</a></p>
+      <p>GUNAKAN KODE "VROM2" AGAR DAPAT ONGKIR GRATIS. <a href="products">BELI SEKARANG!</a></p>
     </div>
     <div class="agile-login">
       <ul>
-        <li><a href="register"> Create Account </a></li>
+        <li><a href="register"> Register </a></li>
         <li><a href="login">Login</a></li>
-        <li><a href="contact">Help</a></li>
-        
       </ul>
     </div>
     <div class="product_list_header">
@@ -23,7 +21,7 @@
   <div class="container">
   <div class="w3ls_logo_products_left1">
       <ul class="phone_email">
-        <li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
+        <li><i class="fa fa-phone" aria-hidden="true"></i>Hubungi kami : (0411) 3884 271</li>
         
       </ul>
     </div>
@@ -32,7 +30,7 @@
     </div>
   <div class="w3l_search">
     <form action="#" method="post">
-      <input type="search" name="Search" placeholder="Search for a Product..." required="">
+      <input type="search" name="Search" placeholder="Cari Produk.." required="">
       <button type="submit" class="btn btn-default search" aria-label="Left Align">
         <i class="fa fa-search" aria-hidden="true"> </i>
       </button>
@@ -59,10 +57,11 @@
             </div> 
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="/" class="act">Beranda</a></li>	
+                <li class="active"><a href="/">Beranda</a></li>	
+                <li><a href="/products">Promo</a></li>	
                 <!-- Mega Menu -->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grosir<b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Makanan & Minuman <b class="caret"></b></a>
                   <ul class="dropdown-menu multi-column columns-3">
                     <div class="row">
                       <div class="multi-gd-img">
@@ -81,7 +80,7 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Peralatan Rumah<b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kebutuhan Harian <b class="caret"></b></a>
                   <ul class="dropdown-menu multi-column columns-3">
                     <div class="row">
                       <div class="multi-gd-img">
@@ -95,71 +94,9 @@
                           <li><a href="products">Alat Dapur</a></li>
                         </ul>
                       </div>
-                      
-                      
                     </div>
                   </ul>
                 </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Perawatan Pribadi<b class="caret"></b></a>
-                  <ul class="dropdown-menu multi-column columns-3">
-                    <div class="row">
-                      <div class="multi-gd-img">
-                        <ul class="multi-column-dropdown">
-                          <h6>Perwatan Bayi</h6>
-                          <li><a href="products">Sabun Bayi</a></li>
-                          <li><a href="products">Aksesoris Perwatan Bayi</a></li>
-                          <li><a href="products">Minyak dan Shampo Bayi</a></li>
-                          <li><a href="products">Baby Creams & Lotion</a></li>
-                          <li><a href="products"> Bedak Bayi</a></li>
-                          <li><a href="products">Diapers & Wipes</a></li>
-                        </ul>
-                      </div>
-                      
-                    </div>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Makanan Kemasan<b class="caret"></b></a>
-                  <ul class="dropdown-menu multi-column columns-3">
-                    <div class="row">
-                      <div class="multi-gd-img">
-                        <ul class="multi-column-dropdown">
-                          <h6>Semua</h6>
-                          <li><a href="products">Makanan Bayi</a></li>
-                          <li><a href="products">Item Pencuci Mulut</a></li>
-                          <li><a href="products">Biskuit</a></li>
-                          <li><a href="products">Sereal</a></li>
-                          <li><a href="products"> Canned Food </a></li>
-                          <li><a href="products">Coklat dan Manisan</a></li>
-                        </ul>
-                      </div>
-                      
-                    
-                    </div>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Minuman<b class="caret"></b></a>
-                  <ul class="dropdown-menu multi-column columns-3">
-                    <div class="row">
-                      <div class="multi-gd-img">
-                        <ul class="multi-column-dropdown">
-                          <h6>Teh dan Kopi</h6>
-                          <li><a href="products">Teh Hijau</a></li>
-                          <li><a href="products">Kopi</a></li>
-                          <li><a href="products">Teh Herbal</a></li>
-                          <li><a href="products">Kopi Instan</a></li>
-                          <li><a href="products"> Teh </a></li>
-                          <li><a href="products">Teh Kantung</a></li>
-                        </ul>
-                      </div>
-            
-                    </div>
-                  </ul>
-                </li>
-                <!-- <li><a href="gourmet.html">Gourmet</a></li>
-                <li><a href="offers.html">Offers</a></li> -->
                 <li><a href="contact">Kontak</a></li>
               </ul>
             </div>
