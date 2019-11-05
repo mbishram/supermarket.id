@@ -1,3 +1,7 @@
+.style-italic{
+  font-style: italic;
+}
+
 /* navbar */
 .agile-login{
   text-align: right;
@@ -28,3 +32,40 @@
 }
 /* navbarend */
 
+/* index */
+.carousel-indicators{
+  bottom: 1rem;
+}
+.carousel-indicators li{
+  background-color: white;
+}
+
+/* register */
+.checkbox i{
+  bottom : unset;
+}
+.register h4 {
+  margin: 2em 0 0.5em;
+  font-size: 1.5em;
+  color: #212121;
+  text-align: center;
+  text-transform: uppercase;
+}
+.register p {
+  font-size: 14px;
+  color: #999;
+  line-height: 1.8em;
+  margin: 0;
+  text-align: center;
+}
+.register p a {
+  color: #fe9126;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0 .5em;
+}
+.register p a span {
+  top: 0.1em;
+  font-size: .7em;
+  left: 0.3em;
+}
