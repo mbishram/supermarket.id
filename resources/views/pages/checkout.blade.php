@@ -5,8 +5,8 @@
 	<div class="breadcrumbs">
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1">
-				<li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-				<li class="active">Checkout Page</li>
+				<li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Beranda</a></li>
+				<li class="active">Checkout</li>
 			</ol>
 		</div>
 	</div>
@@ -14,18 +14,18 @@
 <!-- checkout -->
 	<div class="checkout">
 		<div class="container">
-			<h2>Your shopping cart contains: <span>3 Products</span></h2>
+			<h2>Keranjangmu Berisi: <span>3 Produk</span></h2>
 			<div class="checkout-right">
 				<table class="timetable_sub">
 					<thead>
 						<tr>
-							<th>SL No.</th>	
-							<th>Product</th>
-							<th>Quality</th>
-							<th>Product Name</th>
+							<th>No.</th>	
+							<th>Produk</th>
+							<th>Banyak</th>
+							<th>Nama Produk</th>
 						
-							<th>Price</th>
-							<th>Remove</th>
+							<th>Harga</th>
+							<th>Hapus</th>
 						</tr>
 					</thead>
 					<tr class="rem1">
@@ -42,7 +42,7 @@
 						</td>
 						<td class="invert">Tata Salt</td>
 						
-						<td class="invert">$290.00</td>
+						<td class="invert">Rp.13000</td>
 						<td class="invert">
 							<div class="rem">
 								<div class="close1"> </div>
@@ -71,7 +71,7 @@
 						</td>
 						<td class="invert">Fortune oil</td>
 					
-						<td class="invert">$250.00</td>
+						<td class="invert">Rp.16000</td>
 						<td class="invert">
 							<div class="rem">
 								<div class="close2"> </div>
@@ -100,7 +100,7 @@
 						</td>
 						<td class="invert">Aashirvaad atta</td>
 						
-						<td class="invert">$15.00</td>
+						<td class="invert">Rp.130000</td>
 						<td class="invert">
 							<div class="rem">
 								<div class="close3"> </div>
@@ -132,17 +132,18 @@
 			</div>
 			<div class="checkout-left">	
 				<div class="checkout-left-basket">
-					<h4>Continue to basket</h4>
+					<h4>Ringkasan Harga</h4>
 					<ul>
-						<li>Product1 <i>-</i> <span>$15.00 </span></li>
-						<li>Product2 <i>-</i> <span>$25.00 </span></li>
-						<li>Product3 <i>-</i> <span>$29.00 </span></li>
-						<li>Total Service Charges <i>-</i> <span>$15.00</span></li>
-						<li>Total <i>-</i> <span>$84.00</span></li>
+						<li>Product1 <i>-</i> <span>Rp.13000 </span></li>
+						<li>Product2 <i>-</i> <span>Rp.16000 </span></li>
+						<li>Product3 <i>-</i> <span>Rp.130000 </span></li>
+						<li>Total Service Charges <i>-</i> <span>Rp.10000</span></li>
+						<li>Total <i>-</i> <span>Rp.199000</span></li>
 					</ul>
 				</div>
-				<div class="checkout-right-basket">
-					<a href="item"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue Shopping</a>
+				<div class="checkout-right-basket"> 
+					<a href="bayar"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Lanjutkan Pembayaran</a>
+					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>

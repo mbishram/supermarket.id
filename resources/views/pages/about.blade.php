@@ -5,8 +5,8 @@
 <div class="breadcrumbs">
   <div class="container">
     <ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-      <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-      <li class="active">About</li>
+      <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Beranda</a></li>
+      <li class="active">Tentang Kami</li>
     </ol>
   </div>
 </div>
@@ -14,12 +14,12 @@
 <!-- about -->
 <div class="about">
   <div class="container">
-    <h3 class="w3_agile_header">About Us</h3>
+    <h3 class="w3_agile_header">Tentang Kami</h3>
     <div class="about-agileinfo w3layouts">
       <div class="col-md-8 about-wthree-grids grid-top">
-        <h4>Blanditiis praesentium deleniti atque corrupti quos </h4>
-        <p class="top">Gnissimos voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi. atque corrupti quos dolores et quas molestias excepturi sint occaecat officia deserunt mollitia laborum et dolorum fuga</p>
-        <p>Dignissimos at vero eos et accusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecat officia deserunt mollitia laborum et dolorum fuga. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecat atque corrupti quos dolores et quas molestias excepturi sint occaecat officia deserunt mollitia laborum et dolorum </p>		
+        <h4>Supermarket.id Belanja Murah, Mudah, dan Banyak Diskonnya</h4>
+        <p class="top">Supermarket.id adalah perbenlanjaan online yang mudah, murah, dan terpercaya. Dengan ini anda dapat memesan kebutuhan harian atau bulanan anda dimanapun dan kapanpun.</p>
+        <p>Nikmati penawaran harian dari kami dengan berbagai macam produk serta potongan harga sampai 80%. Barang di dapur dan bahan makanan anda habis tapi tidak punya waktu untuk berbelanja di supermarket? Berbelanjalah si Supermarket.id. Berbelanja sambil bekerja? Bisa ataupun anda sangat sibuk. Hanya tinggal tap tap dan tap, bayar, dan tadaaa pesanan anda akan dikirim.  </p>		
         <div class="about-w3agilerow">
           <div class="col-md-4 about-w3imgs">
             <img src="images/p3.jpg" alt="" class="img-responsive zoom-img"/>
@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="testi">
-          <h3 class="w3_agile_header">Testimonial</h3>
+          <h3 class="w3_agile_header">Testimoni</h3>
           <!--//End-slider-script -->
           <script src="js/responsiveslides.min.js"></script>
            <script>
@@ -72,30 +72,30 @@
             <ul class="rslides" id="slider5">
               <li>
                 <div class="testi-slider">
-                  <h4>" I AM VERY PLEASED.</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu magna dolor, quisque semper.</p>
+                  <h4>"Saya sangat terbantu dengan adanya Supermarket.id ini.</h4>
+                  <p></p>
                   <div class="testi-subscript">
-                    <p><a href="#">John Doe,</a>Adipiscing</p>
+                    <p><a href="#">Bishram</a></p>
                     <span class="w3-agilesub"> </span>
                   </div>	
                 </div>
               </li>
               <li>
                 <div class="testi-slider">
-                  <h4>" I AM LOREM IPSUM.</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu magna dolor, quisque semper.</p>
+                  <h4>"Terima Kasih Supermarket.id</h4>
+                  <p></p>
                   <div class="testi-subscript">
-                    <p><a href="#">elit semper,</a>Dolor Elit</p>
+                    <p><a href="#">Alfarabi</a></p>
                     <span class="w3-agilesub"> </span>
                   </div>	
                 </div>
               </li>
               <li>
                 <div class="testi-slider">
-                  <h4>" CONSECTETUR PIMAGNA.</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu magna dolor, quisque semper.</p>
+                  <h4>"Begitu mudah dalam berbelanja kebutuhan bulanan</h4>
+                  <p></p>
                   <div class="testi-subscript">
-                    <p><a href="#">Amet Doe,</a>Suspendisse</p>
+                    <p><a href="#">Asjar</a></p>
                     <span class="w3-agilesub"> </span>
                   </div>	
                 </div>
@@ -122,13 +122,13 @@
 <!-- about-team -->
 <div class="about-team"> 
   <div class="container">
-    <h3 class="w3_agile_header">Meet Our Team</h3>
+    <h3 class="w3_agile_header">Team Kami</h3>
     <div class="team-agileitsinfo">
       <div class="col-md-3 about-team-grids">
         <img src="images/t4.jpg" alt=""/>
         <div class="team-w3lstext">
-          <h4><span>ANDERSON,</span> Manager</h4>
-          <p>Odio dignissimos vero eos voluptatem accusantium doloremque laudantium reader will be distracted.</p>
+          <h4><span>Muh. Bishram</span></h4>
+          <p></p>
         </div>
         <div class="social-icons caption"> 
           <ul>
@@ -142,8 +142,8 @@
       <div class=" col-md-3 about-team-grids">
         <img src="images/t2.jpg" alt=""/>
         <div class="team-w3lstext">
-          <h4><span>ELIFS,</span> Director</h4>
-          <p>Odio dignissimos vero eos voluptatem accusantium doloremque laudantium reader will be distracted.</p>
+          <h4><span>Achmad Asjar</span></h4>
+          <p></p>
         </div>
         <div class="social-icons caption"> 
           <ul>
@@ -157,8 +157,8 @@
       <div class="col-md-3 about-team-grids">
         <img src="images/t1.jpg" alt=""/>
         <div class="team-w3lstext">
-          <h4><span>JESSICA,</span> Supervisior</h4>				
-          <p>Odio dignissimos vero eos voluptatem accusantium doloremque laudantium reader will be distracted.</p>
+          <h4><span>Muh. Alfarabi</span></h4>				
+          <p></p>
         </div>
         <div class="social-icons caption"> 
           <ul>
@@ -172,8 +172,8 @@
       <div class="col-md-3 about-team-grids">
         <img src="images/t3.jpg" alt=""/>
         <div class="team-w3lstext">
-          <h4><span>RACKHAM,</span> Staff</h4>
-          <p>Odio dignissimos vero eos voluptatem accusantium doloremque laudantium reader will be distracted.</p>
+          <h4><span>Muh. Akib</span></h4>
+          <p></p>
         </div>
         <div class="social-icons caption"> 
           <ul>

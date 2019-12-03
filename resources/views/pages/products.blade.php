@@ -5,8 +5,8 @@
 <div class="breadcrumbs">
   <div class="container">
     <ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-      <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-      <li class="active">Products</li>
+      <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Beranda</a></li>
+      <li class="active">Produk</li>
     </ol>
   </div>
 </div>
@@ -57,18 +57,18 @@
         <div class="products-right-grids">
           <div class="sorting">
             <select id="country" onchange="change_country(this.value)" class="frm-field required sect">
-              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Default sorting</option>
-              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by popularity</option> 
-              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by average rating</option>					
-              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by price</option>								
+              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Urutkan STandar</option>
+              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Urutkan Berdasarkan Terpopuler</option> 
+              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Urutkan Berdasarkan Bintang</option>					
+              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Urutkan Berdasarkan Harga</option>								
             </select>
           </div>
           <div class="sorting-left">
             <select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 9</option>
-              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 18</option> 
-              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 32</option>					
-              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>All</option>								
+              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item pada halaman 9</option>
+              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item pada halaman 18</option> 
+              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item pada halaman 32</option>					
+              <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Semua</option>								
             </select>
           </div>
           <div class="clearfix"> </div>
@@ -87,7 +87,7 @@
                     <div class="snipcart-thumb">
                       <a href="item"><img title=" " alt=" " src="images/pf4.png"></a>		
                       <p>Sampann-toor-dal</p>
-                      <h4>$35.99 <span>$55.00</span></h4>
+                      <h4>Rp.36000 <span>Rp.55000</span></h4>
                     </div>
                     <div class="snipcart-details top_brand_home_details">
                       <form action="#" method="post">
@@ -96,9 +96,9 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="business" value=" ">
                           <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                          <input type="hidden" name="amount" value="35.99">
-                          <input type="hidden" name="discount_amount" value="1.00">
-                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="amount" value="36000">
+                          <input type="hidden" name="discount_amount" value="1000">
+                          <input type="hidden" name="currency_code" value="IDR">
                           <input type="hidden" name="return" value=" ">
                           <input type="hidden" name="cancel_return" value=" ">
                           <input type="submit" name="submit" value="Add to cart" class="button">
@@ -123,7 +123,7 @@
                     <div class="snipcart-thumb">
                       <a href="item"><img title=" " alt=" " src="images/bv3.png"></a>		
                       <p>Parryss-sugar</p>
-                      <h4>$30.99 <span>$45.00</span></h4>
+                      <h4>Rp.30000 <span>Rp.45000</span></h4>
                     </div>
                     <div class="snipcart-details top_brand_home_details">
                       <form action="#" method="post">
@@ -132,9 +132,9 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="business" value=" ">
                           <input type="hidden" name="item_name" value="basmati rise">
-                          <input type="hidden" name="amount" value="30.99">
-                          <input type="hidden" name="discount_amount" value="1.00">
-                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="amount" value="30000">
+                          <input type="hidden" name="discount_amount" value="1000">
+                          <input type="hidden" name="currency_code" value="IDR">
                           <input type="hidden" name="return" value=" ">
                           <input type="hidden" name="cancel_return" value=" ">
                           <input type="submit" name="submit" value="Add to cart" class="button">
@@ -162,7 +162,7 @@
                     <div class="snipcart-thumb">
                       <a href="item"><img src="images/16.png" alt=" " class="img-responsive"></a>
                       <p>Saffola-gold</p>
-                      <h4>$80.99 <span>$105.00</span></h4>
+                      <h4>Rp.80000 <span>Rp.100000</span></h4>
                     </div>
                     <div class="snipcart-details top_brand_home_details">
                       <form action="#" method="post">
@@ -171,9 +171,9 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="business" value=" ">
                           <input type="hidden" name="item_name" value="Pepsi soft drink">
-                          <input type="hidden" name="amount" value="80.00">
-                          <input type="hidden" name="discount_amount" value="1.00">
-                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="amount" value="80000">
+                          <input type="hidden" name="discount_amount" value="1000">
+                          <input type="hidden" name="currency_code" value="IDR">
                           <input type="hidden" name="return" value=" ">
                           <input type="hidden" name="cancel_return" value=" ">
                           <input type="submit" name="submit" value="Add to cart" class="button">
@@ -201,7 +201,7 @@
                     <div class="snipcart-thumb">
                       <a href="item"><img title=" " alt=" " src="images/hh4.png"></a>		
                       <p>Sampann-toor-dal</p>
-                      <h4>$35.99 <span>$55.00</span></h4>
+                      <h4>Rp.35000 <span>Rp.55000</span></h4>
                     </div>
                     <div class="snipcart-details top_brand_home_details">
                       <form action="#" method="post">
@@ -210,9 +210,9 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="business" value=" ">
                           <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                          <input type="hidden" name="amount" value="35.99">
-                          <input type="hidden" name="discount_amount" value="1.00">
-                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="amount" value="35000">
+                          <input type="hidden" name="discount_amount" value="1000">
+                          <input type="hidden" name="currency_code" value="IDR">
                           <input type="hidden" name="return" value=" ">
                           <input type="hidden" name="cancel_return" value=" ">
                           <input type="submit" name="submit" value="Add to cart" class="button">
@@ -237,7 +237,7 @@
                     <div class="snipcart-thumb">
                       <a href="item"><img title=" " alt=" " src="images/gu5.png"></a>		
                       <p>Parryss-sugar</p>
-                      <h4>$30.99 <span>$45.00</span></h4>
+                      <h4>Rp.30000 <span>Rp.45000</span></h4>
                     </div>
                     <div class="snipcart-details top_brand_home_details">
                       <form action="#" method="post">
@@ -246,9 +246,9 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="business" value=" ">
                           <input type="hidden" name="item_name" value="basmati rise">
-                          <input type="hidden" name="amount" value="30.99">
-                          <input type="hidden" name="discount_amount" value="1.00">
-                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="amount" value="30000">
+                          <input type="hidden" name="discount_amount" value="1000">
+                          <input type="hidden" name="currency_code" value="IDR">
                           <input type="hidden" name="return" value=" ">
                           <input type="hidden" name="cancel_return" value=" ">
                           <input type="submit" name="submit" value="Add to cart" class="button">
@@ -276,7 +276,7 @@
                     <div class="snipcart-thumb">
                       <a href="item"><img src="images/pc6.png" alt=" " class="img-responsive"></a>
                       <p>Saffola-gold</p>
-                      <h4>$80.99 <span>$105.00</span></h4>
+                      <h4>Rp.80000 <span>Rp.100000</span></h4>
                     </div>
                     <div class="snipcart-details top_brand_home_details">
                       <form action="#" method="post">
@@ -285,9 +285,9 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="business" value=" ">
                           <input type="hidden" name="item_name" value="Pepsi soft drink">
-                          <input type="hidden" name="amount" value="80.00">
-                          <input type="hidden" name="discount_amount" value="1.00">
-                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="amount" value="80000">
+                          <input type="hidden" name="discount_amount" value="1000">
+                          <input type="hidden" name="currency_code" value="IDR">
                           <input type="hidden" name="return" value=" ">
                           <input type="hidden" name="cancel_return" value=" ">
                           <input type="submit" name="submit" value="Add to cart" class="button">
@@ -315,7 +315,7 @@
                     <div class="snipcart-thumb">
                       <a href="item"><img title=" " alt=" " src="images/gu4.png"></a>		
                       <p>Sampann-toor-dal</p>
-                      <h4>$35.99 <span>$55.00</span></h4>
+                      <h4>Rp.35000 <span>Rp.55000</span></h4>
                     </div>
                     <div class="snipcart-details top_brand_home_details">
                       <form action="#" method="post">
@@ -324,9 +324,9 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="business" value=" ">
                           <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                          <input type="hidden" name="amount" value="35.99">
-                          <input type="hidden" name="discount_amount" value="1.00">
-                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="amount" value="35000">
+                          <input type="hidden" name="discount_amount" value="1000">
+                          <input type="hidden" name="currency_code" value="IDR">
                           <input type="hidden" name="return" value=" ">
                           <input type="hidden" name="cancel_return" value=" ">
                           <input type="submit" name="submit" value="Add to cart" class="button">
@@ -351,7 +351,7 @@
                     <div class="snipcart-thumb">
                       <a href="item"><img title=" " alt=" " src="images/5.png"></a>		
                       <p>Parryss-sugar</p>
-                      <h4>$30.99 <span>$45.00</span></h4>
+                      <h4>Rp.30000 <span>Rp.45000</span></h4>
                     </div>
                     <div class="snipcart-details top_brand_home_details">
                       <form action="#" method="post">
@@ -360,9 +360,9 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="business" value=" ">
                           <input type="hidden" name="item_name" value="basmati rise">
-                          <input type="hidden" name="amount" value="30.99">
-                          <input type="hidden" name="discount_amount" value="1.00">
-                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="amount" value="30000">
+                          <input type="hidden" name="discount_amount" value="1000">
+                          <input type="hidden" name="currency_code" value="IDR">
                           <input type="hidden" name="return" value=" ">
                           <input type="hidden" name="cancel_return" value=" ">
                           <input type="submit" name="submit" value="Add to cart" class="button">
@@ -390,7 +390,7 @@
                     <div class="snipcart-thumb">
                       <a href="item"><img src="images/6.png" alt=" " class="img-responsive"></a>
                       <p>Saffola-gold</p>
-                      <h4>$80.99 <span>$105.00</span></h4>
+                      <h4>Rp.80000 <span>Rp.100000</span></h4>
                     </div>
                     <div class="snipcart-details top_brand_home_details">
                       <form action="#" method="post">
@@ -399,9 +399,9 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="business" value=" ">
                           <input type="hidden" name="item_name" value="Pepsi soft drink">
-                          <input type="hidden" name="amount" value="80.00">
-                          <input type="hidden" name="discount_amount" value="1.00">
-                          <input type="hidden" name="currency_code" value="USD">
+                          <input type="hidden" name="amount" value="80000">
+                          <input type="hidden" name="discount_amount" value="1000">
+                          <input type="hidden" name="currency_code" value="IDR">
                           <input type="hidden" name="return" value=" ">
                           <input type="hidden" name="cancel_return" value=" ">
                           <input type="submit" name="submit" value="Add to cart" class="button">

@@ -5,7 +5,7 @@
 <div class="breadcrumbs">
   <div class="container">
     <ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-      <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+      <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Beranda</a></li>
       <li class="active">FAQ</li>
     </ol>
   </div>
@@ -14,7 +14,7 @@
 <!-- help-page -->
 <div class="faq-w3agile">
   <div class="container"> 
-    <h2 class="w3_agile_header">Frequently asked questions(FAQ)</h2> 
+    <h2 class="w3_agile_header">Frequently asked questions (FAQ)</h2> 
     <ul class="faq">
       <li class="item1"><a href="#" title="click here">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor vehicula ipsum nec ?</a>
         <ul>

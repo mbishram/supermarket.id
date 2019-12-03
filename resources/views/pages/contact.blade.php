@@ -5,8 +5,8 @@
 <div class="breadcrumbs">
   <div class="container">
     <ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-      <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-      <li class="active">Contact</li>
+      <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Beranda</a></li>
+      <li class="active">Kontak</li>
     </ol>
   </div>
 </div>
@@ -20,11 +20,11 @@
       </div>
       <div class="agileits_w3layouts_map_pos">
         <div class="agileits_w3layouts_map_pos1">
-          <h3>Contact Info</h3>
-          <p>1234k Avenue, 4th block, New York City.</p>
+          <h3>Kontak Info</h3>
+          <p>Jalan Poros Malino, Kabupaten Gowa</p>
           <ul class="wthree_contact_info_address">
-            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i>+(0123) 232 232</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">supermarketid@gmail.com</a></li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>+6282194295333</li>
           </ul>
           <div class="w3_agile_social_icons w3_agile_social_icons_contact">
             <ul>
@@ -37,19 +37,19 @@
       </div>
     </div>
     <div class="col-md-6 w3_agileits_contact_grid_right">
-      <h2 class="w3_agile_header">Leave a<span> Message</span></h2>
+      <h2 class="w3_agile_header">Tinggalkan<span> Pesan</span></h2>
 
       <form action="#" method="post">
         <span class="input input--ichiro">
           <input class="input__field input__field--ichiro" type="text" id="input-25" name="Name" placeholder=" " required="" />
           <label class="input__label input__label--ichiro" for="input-25">
-            <span class="input__label-content input__label-content--ichiro">Your Name</span>
+            <span class="input__label-content input__label-content--ichiro">Nama Anda</span>
           </label>
         </span>
         <span class="input input--ichiro">
           <input class="input__field input__field--ichiro" type="email" id="input-26" name="Email" placeholder=" " required="" />
           <label class="input__label input__label--ichiro" for="input-26">
-            <span class="input__label-content input__label-content--ichiro">Your Email</span>
+            <span class="input__label-content input__label-content--ichiro">Email</span>
           </label>
         </span>
         <textarea name="Message" placeholder="Your message here..." required=""></textarea>
