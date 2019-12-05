@@ -24,6 +24,8 @@
           <a href="#">Lupa Password?</a>
         </div>
         <input type="submit" value="Login">
+        
+        @csrf
       </form>
     </div>
     <h4>Baru di supermarket.id?</h4>

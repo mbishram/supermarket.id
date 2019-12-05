@@ -11,33 +11,61 @@
   </div>
 </div>
 <!-- //breadcrumbs -->
+
 <!-- register -->
 <div class="register">
   <div class="container">
     <h2>Register Disini!</h2>
     <div class="login-form-grids">
+      @error('terms')
+        <div class="alert-danger alert mb-3"><small><strong>{{ $message }}</strong></small></div>
+      @enderror
+      @if(session('success'))
+        <div class="alert-success alert mb-3"><small><strong>{{ session('success') }}</strong></small></div>
+      @endif
       <h5>Informasi Profil</h5>
-      <form action="#" method="post">
-        <input type="text" placeholder="Nama Lengkap" required=" " >
-        <input type="text" placeholder="Alamat Rumah" required=" " >
-        <input type="text" placeholder="Nomor Telepon" required=" " >
-      </form>
-      <h6>Informasi Login</h6>
-        <form action="#" method="post">
-        <input type="email" placeholder="Alamat Email" required=" " >
-        <input type="password" placeholder="Password" required=" " >
-        <input type="password" placeholder="Konfirmasi Password" required=" " >
+      <form action="/register" method="POST">
+        <input id="name" name="name" type="text" placeholder="Nama Lengkap">
+        @error('name')
+          <small><strong class="text-danger ">{{ $message }}</strong></small>
+        @enderror
+        
+        <input id="address" name="address" type="text" placeholder="Alamat Rumah">
+        @error('address')
+          <small><strong class="text-danger ">{{ $message }}</strong></small>
+        @enderror
+        
+        <input id="telephone_number" name="telephone_number" type="text" placeholder="Nomor Telepon">
+        @error('telephone_number')
+          <small><strong class="text-danger ">{{ $message }}</strong></small>
+        @enderror
+        
+        <h6>Informasi Login</h6>
+        
+        <input id="email" name="email" type="email" placeholder="Alamat Email">
+        @error('email')
+          <small><strong class="text-danger ">{{ $message }}</strong></small>
+        @enderror
+        
+        <input id="password" name="password" type="password" placeholder="Password">
+        @error('password')
+          <small><strong class="text-danger ">{{ $message }}</strong></small>
+        @enderror
+        
+        <input id="password_confirmation" name="password_confirmation" type="password" placeholder="Konfirmasi Password">
+        @error('password_confirmation')
+          <small><strong class="text-danger ">{{ $message }}</strong></small>
+        @enderror
+        
         <div class="register-check-box">
           <div class="check">
-            <label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Saya ingin mengetahui promo dan berita dari supermarket.id</label>
+            <label class="checkbox"><input id="terms" name="terms" type="checkbox" name="checkbox"><i> </i>Saya menerima "<span class="style-italic">Term and Condition</span>"</label>
           </div>
         </div>
-        <div class="register-check-box">
-          <div class="check">
-            <label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Saya menerima "<span class="style-italic">Term and Condition</span>"</label>
-          </div>
-        </div>
+
         <input type="submit" value="Register">
+        
+        @csrf
       </form>
     </div>
     <h4>Sudah punya akun?</h4>

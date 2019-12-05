@@ -31,3 +31,8 @@ Route::get('/products', 'PagesController@products');
 Route::get('/register', 'PagesController@register');
 // Item
 Route::get('/item', 'PagesController@item');
+
+// Backend
+// Customer
+Route::post('register', 'CustomersAuthController@register');
+Route::post('login', 'CustomersAuthCOntroller@login');
