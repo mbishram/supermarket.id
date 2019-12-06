@@ -1,6 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
+@if(session('success'))
+  <div class="alert-success alert mb-0"><small><strong>{{ session('success') }}</strong></small></div>
+@endif
 <!-- Carousel
   ================================================== -->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">

@@ -15,16 +15,25 @@
 <div class="login">
   <div class="container">
     <h2>Login ke Akunmu</h2>
+
   
     <div class="login-form-grids animated wow slideInUp" data-wow-delay=".5s">
-      <form>
-        <input type="email" placeholder="Alamat Email" required=" " >
-        <input type="password" placeholder="Password" required=" " >
+      <form action="loginC" method="POST">
+        
+        @if(session('login_failed'))
+          <div class="alert-danger alert mb-3"><small><strong>{{ session('login_failed') }}</strong></small></div>
+        @endif
+
+        <input id="email" name="email" type="email" placeholder="Alamat Email" required>
+
+        <input id="password" name="password" type="password" placeholder="Password" required>
+
         <div class="forgot">
           <a href="#">Lupa Password?</a>
         </div>
-        <input type="submit" value="Login">
         
+        <input type="submit" value="Login">
+
         @csrf
       </form>
     </div>

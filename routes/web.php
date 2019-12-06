@@ -12,7 +12,7 @@
 */
 
 // Index
-Route::get('/', 'PagesController@index');
+Route::get('/', 'PagesController@index')->name('home');
 // About
 Route::get('/about', 'PagesController@about');
 // Checkout
@@ -34,5 +34,6 @@ Route::get('/item', 'PagesController@item');
 
 // Backend
 // Customer
-Route::post('register', 'CustomersAuthController@register');
-Route::post('login', 'CustomersAuthCOntroller@login');
+Route::post('registerC', 'CustomersAuthController@register');
+Route::post('loginC', 'CustomersAuthController@login');
+Route::post('logoutC', 'CustomersAuthController@logout');

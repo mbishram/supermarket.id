@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Customer extends Model
 {
-    // Defining the table
+    // Defining Model
     protected $table = 'customers';
+    protected $primaryKey = 'id';
 }

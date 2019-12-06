@@ -5,10 +5,18 @@
       <p>GUNAKAN KODE "VROM2" AGAR DAPAT ONGKIR GRATIS. <a href="products">BELI SEKARANG!</a></p>
     </div>
     <div class="agile-login">
+      @if (Auth::check())
+      <ul>
+        <li><p class="user">Welcome <b>{{Auth::user()->name}}</b></p></li>
+        <li><form action="logoutC" method="POST">@csrf<input type="submit" value="Logout" class="btn btn-danger"></form></li>
+      </ul>
+      @else
       <ul>
         <li><a href="register"> Register </a></li>
         <li><a href="login">Login</a></li>
       </ul>
+      @endif
+      
     </div>
     <div class="product_list_header">
       <a href="checkout"><button class="w3view-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a> 

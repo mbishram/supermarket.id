@@ -12,8 +12,6 @@ class CustomersAuthController extends Controller
 
 
     public function register(Request $request){
-        $input = $request->input();
-
         // Check if the inputs are valid. Return error if it's not
         $request -> validate([
             'name' => 'string|required',
@@ -35,16 +33,25 @@ class CustomersAuthController extends Controller
         $customer->save();
         
         //Register success
-        return redirect('register')->with('success', 'Account created! You can now log in with your email');
+        return redirect('register')->with('success', 'Akun telah dibuat! Kamu dapat login menggunakan email kamu');
     }
 
     public function login(Request $request){
+
         $credentials = $request->only('email', 'password');
 
         if (Auth::attempt($credentials)) {
-            // Authentication passed...
-            return redirect()->intended('dashboard');
+            return redirect()->intended('/')->with('success', 'Anda telah berhasi login!');
+        } else {
+            return redirect('login')->with('login_failed', 'Akun tidak ditemukan atau password salah');
         }
+    }
+
+    public function logout(){
+
+        Auth::logout();
+
+        return redirect('/')->with('success', 'Anda telah berhasil keluar');
     }
 
 }

@@ -24,7 +24,7 @@
         <div class="alert-success alert mb-3"><small><strong>{{ session('success') }}</strong></small></div>
       @endif
       <h5>Informasi Profil</h5>
-      <form action="/register" method="POST">
+      <form action="registerC" method="POST">
         <input id="name" name="name" type="text" placeholder="Nama Lengkap">
         @error('name')
           <small><strong class="text-danger ">{{ $message }}</strong></small>

@@ -69,3 +69,9 @@
   font-size: .7em;
   left: 0.3em;
 }
+
+.user{
+  color: white;
+  text-transform: capitalize;
+  background: unset;
+}
