@@ -341,7 +341,7 @@
         </div>
       </div>
 <!--banner-bottom-->
-<!-- new -->
+{{-- <!-- new -->
 <div class="newproducts-w3agile">
   <div class="container">
     <h3>Produk Baru</h3>
@@ -525,7 +525,7 @@
       </div>
   </div>
 </div>
-<!-- //new -->
+<!-- //new --> --}}
 <!--brands-->
 <div class="brands">
   <div class="container">

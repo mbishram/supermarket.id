@@ -2,13 +2,13 @@
 <div class="agileits_header">
   <div class="container">
     <div class="w3l_offers">
-      <p>GUNAKAN KODE "VROM2" AGAR DAPAT ONGKIR GRATIS. <a href="products">BELI SEKARANG!</a></p>
+      <p>GUNAKAN KODE "VROM2" AGAR DAPAT ONGKIR GRATIS. <a href="promos">BELI SEKARANG!</a></p>
     </div>
     <div class="agile-login">
       @if (Auth::check())
       <ul>
         <li><p class="user">Welcome <b>{{Auth::user()->name}}</b></p></li>
-        <li><form action="logoutC" method="POST">@csrf<input type="submit" value="Logout" class="btn btn-danger"></form></li>
+        <li><form action="logout" method="POST">@csrf<input type="submit" value="Logout" class="btn btn-danger"></form></li>
       </ul>
       @else
       <ul>
@@ -66,45 +66,10 @@
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Beranda</a></li>	
-                <li><a href="/products">Promo</a></li>	
+                <li><a href="/promos">Promo</a></li>	
                 <!-- Mega Menu -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Makanan & Minuman <b class="caret"></b></a>
-                  <ul class="dropdown-menu multi-column columns-3">
-                    <div class="row">
-                      <div class="multi-gd-img">
-                        <ul class="multi-column-dropdown">
-                          <h6>Semua</h6>
-                          <li><a href="products">Dals & Pulses</a></li>
-                          <li><a href="products">Almond</a></li>
-                          <li><a href="products">Cashews</a></li>
-                          <li><a href="products">Buah Kering</a></li>
-                          <li><a href="products"> Mukhwas </a></li>
-                          <li><a href="products">Produk Beras</a></li>
-                        </ul>
-                      </div>	
-                      
-                    </div>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kebutuhan Harian <b class="caret"></b></a>
-                  <ul class="dropdown-menu multi-column columns-3">
-                    <div class="row">
-                      <div class="multi-gd-img">
-                        <ul class="multi-column-dropdown">
-                          <h6>Semua</h6>
-                          <li><a href="products">Alat Masak</a></li>
-                          <li><a href="products">Dust Pans</a></li>
-                          <li><a href="products">Scrubbers</a></li>
-                          <li><a href="products">Dust Cloth</a></li>
-                          <li><a href="products"> Mops </a></li>
-                          <li><a href="products">Alat Dapur</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </ul>
-                </li>
+                <li><a href="/foods">Makanan & Minuman </a></li>
+                <li><a href="/necessities">Kebutuhan Harian </a></li>
                 <li><a href="contact">Kontak</a></li>
               </ul>
             </div>

@@ -3,12 +3,9 @@
 <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard">
-      <div class="sidebar-brand-icon">
-        <img src="{{ asset('images/coder_logo.png') }}" alt="" class="logo">
-      </div>
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
       <div class="sidebar-brand-text mx-2 brand">
-        <div><span class="text-coder">Coder</span><br>Institute</div>
+        <div>Supermarket<span class="text-coder">.id</span><br></div>
       </div>
     </a>
   
@@ -31,19 +28,19 @@
     </div>
   
       <!-- Nav Item - Posts -->
-      <li class="nav-item {{ Request::is('dashboard/posts') ? 'active' : '' }}">
-        <a class="nav-link" href="/dashboard/posts">
+      <li class="nav-item {{ Request::is('dashboard/items') ? 'active' : '' }}">
+        <a class="nav-link" href="/dashboard/items">
           <i class="fas fa-fw fa-newspaper"></i>
-          <span>Posts</span></a>
+          <span>Items</span></a>
       </li>
   
     <!-- Divider -->
     <hr class="sidebar-divider">
     
     <!-- Sidebar Toggler (Sidebar) -->
-    <div class="text-center d-none d-md-inline ">
+    {{-- <div class="text-center d-none d-md-inline ">
       <button class="rounded-circle border-0" id="sidebarToggle"></button>
-    </div>
+    </div> --}}
   
   </ul>
   <!-- End of Sidebar -->

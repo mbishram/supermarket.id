@@ -35,9 +35,17 @@ class PagesController extends Controller
         $title = 'Offers';
         return view('pages.offers')->with('title', $title);
     }
-    public function products(){
-        $title = 'Products';
-        return view('pages.products')->with('title', $title);
+    public function foods(){
+        $title = 'Foods';
+        return view('pages.foods')->with('title', $title);
+    }
+    public function necessities(){
+        $title = 'Necessities';
+        return view('pages.necessities')->with('title', $title);
+    }
+    public function promos(){
+        $title = 'Promos';
+        return view('pages.promos')->with('title', $title);
     }
     public function register(){
         $title = 'Register';
@@ -46,5 +54,17 @@ class PagesController extends Controller
     public function item(){
         $title = 'Item';
         return view('pages.item')->with('title', $title);
+    }
+    public function admin(){
+        $title = 'Admin';
+        return view('admin.login')->with('title', $title);
+    }
+    public function dashboard(){
+        $title = 'Dashboard';
+        return view('admin.index')->with('title', $title);
+    }
+    public function dashboardInputItems(){
+        $title = 'Items';
+        return view('admin.items')->with('title', $title);
     }
 }

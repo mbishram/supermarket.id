@@ -26,14 +26,24 @@ Route::get('/login', 'PagesController@login');
 // Offers
 Route::get('/offers', 'PagesController@offers');
 // Products
-Route::get('/products', 'PagesController@products');
+Route::get('/foods', 'PagesController@foods');
+Route::get('/necessities', 'PagesController@necessities');
+// Promos
+Route::get('/promos', 'PagesController@promos');
 // Register
 Route::get('/register', 'PagesController@register');
 // Item
 Route::get('/item', 'PagesController@item');
+// Admin
+Route::get('/admin', 'PagesController@admin');
+Route::get('/dashboard', 'PagesController@dashboard');
+Route::get('/dashboard/items', 'PagesController@dashboardInputItems');
 
 // Backend
 // Customer
-Route::post('registerC', 'CustomersAuthController@register');
-Route::post('loginC', 'CustomersAuthController@login');
-Route::post('logoutC', 'CustomersAuthController@logout');
+Route::post('register', 'CustomersAuthController@register');
+Route::post('login', 'CustomersAuthController@login');
+Route::post('logout', 'CustomersAuthController@logout');
+
+// Items
+Route::post('/dashboard/items', 'ItemsController@store');

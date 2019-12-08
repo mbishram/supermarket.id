@@ -21,7 +21,7 @@ class CustomersAuthController extends Controller
             'password' => 'string|required|confirmed|min:8',
             'password_confirmation' => 'string|required|min:8',
             'terms' => 'required|accepted',
-            ]);
+        ]);
 
         // Input data into database
         $customer = new Customer;

@@ -18,19 +18,19 @@
 
   
     <div class="login-form-grids animated wow slideInUp" data-wow-delay=".5s">
-      <form action="loginC" method="POST">
+      <form action="login" method="POST">
         
         @if(session('login_failed'))
           <div class="alert-danger alert mb-3"><small><strong>{{ session('login_failed') }}</strong></small></div>
         @endif
 
-        <input id="email" name="email" type="email" placeholder="Alamat Email" required>
+        <input id="email" name="email" type="email" placeholder="Alamat Email" required value="{{ old('email') }}">
 
         <input id="password" name="password" type="password" placeholder="Password" required>
 
-        <div class="forgot">
+        {{-- <div class="forgot">
           <a href="#">Lupa Password?</a>
-        </div>
+        </div> --}}
         
         <input type="submit" value="Login">
 

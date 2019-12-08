@@ -1,0 +1,21 @@
+.v-centered{
+  display: grid;
+  align-self: center;
+}
+.text-coder{
+  color: #fe9126;
+}
+.logo{
+  width: 7rem;
+}
+
+.login{
+  background-image: url("../images/bg-pattern.svg");
+  background-position: center;
+  background-size: 25rem;
+}
+#login{
+  background-color: hsla(30, 99%, 57%, 0.068);
+  min-height: 100vh;
+}
+

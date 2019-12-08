@@ -24,25 +24,25 @@
         <div class="alert-success alert mb-3"><small><strong>{{ session('success') }}</strong></small></div>
       @endif
       <h5>Informasi Profil</h5>
-      <form action="registerC" method="POST">
-        <input id="name" name="name" type="text" placeholder="Nama Lengkap">
+      <form action="register" method="POST">
+        <input id="name" name="name" type="text" placeholder="Nama Lengkap" value="{{ old('name') }}">
         @error('name')
           <small><strong class="text-danger ">{{ $message }}</strong></small>
         @enderror
         
-        <input id="address" name="address" type="text" placeholder="Alamat Rumah">
+        <input id="address" name="address" type="text" placeholder="Alamat Rumah" value="{{ old('address') }}">
         @error('address')
           <small><strong class="text-danger ">{{ $message }}</strong></small>
         @enderror
         
-        <input id="telephone_number" name="telephone_number" type="text" placeholder="Nomor Telepon">
+        <input id="telephone_number" name="telephone_number" type="text" placeholder="Nomor Telepon" value="{{ old('telephone_number') }}">
         @error('telephone_number')
           <small><strong class="text-danger ">{{ $message }}</strong></small>
         @enderror
         
         <h6>Informasi Login</h6>
         
-        <input id="email" name="email" type="email" placeholder="Alamat Email">
+        <input id="email" name="email" type="email" placeholder="Alamat Email" value="{{ old('email') }}">
         @error('email')
           <small><strong class="text-danger ">{{ $message }}</strong></small>
         @enderror
@@ -59,7 +59,7 @@
         
         <div class="register-check-box">
           <div class="check">
-            <label class="checkbox"><input id="terms" name="terms" type="checkbox" name="checkbox"><i> </i>Saya menerima "<span class="style-italic">Term and Condition</span>"</label>
+            <label class="checkbox"><input id="terms" name="terms" type="checkbox" name="checkbox" {{ null !==(old('terms')) ? 'checked' : '' }}><i> </i>Saya menerima "<span class="style-italic">Term and Condition</span>"</label>
           </div>
         </div>
 

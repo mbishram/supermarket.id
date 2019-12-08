@@ -15,7 +15,6 @@
               <div class="col-lg-10 mx-auto">
                 <div class="p-5">
                   <div class="text-center">
-                    <img src="{{ asset('images/coder_logo.png') }}" alt="" class="logo mb-4">
                     <h1 class="h3 text-gray-900 mb-4">Halaman Admin <span class="text-coder">Coder Institute</span></h1>
                   </div>
                   <form class="user">
