@@ -23,8 +23,6 @@ Route::get('/contact', 'PagesController@contact');
 Route::get('/faq', 'PagesController@faq');
 // Login
 Route::get('/login', 'PagesController@login');
-// Offers
-Route::get('/offers', 'PagesController@offers');
 // Products
 Route::get('/foods', 'PagesController@foods');
 Route::get('/necessities', 'PagesController@necessities');

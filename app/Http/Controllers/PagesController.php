@@ -3,12 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Item;
 
 class PagesController extends Controller
 {
     public function index(){
-        $title = 'Home';
-        return view('pages.index')->with('title', $title);
+        $datas = [
+            'title' => 'Home',
+            'promos' => Item::where('is_promo', 1)->orderBy('created_at', 'desc')->take(3)->get(),
+        ];
+
+        return view('pages.index')->with('datas', $datas);
     }
 
     public function about(){
@@ -31,21 +36,29 @@ class PagesController extends Controller
         $title = 'Login';
         return view('pages.login')->with('title', $title);
     }
-    public function offers(){
-        $title = 'Offers';
-        return view('pages.offers')->with('title', $title);
-    }
     public function foods(){
-        $title = 'Foods';
-        return view('pages.foods')->with('title', $title);
+        $datas = [
+            'title' => 'Foods',
+            'foods' => Item::where('category', 'foods')->orderBy('created_at', 'desc')->paginate(12),
+        ];
+
+        return view('pages.foods')->with('datas', $datas);
     }
     public function necessities(){
-        $title = 'Necessities';
-        return view('pages.necessities')->with('title', $title);
+        $datas = [
+            'title' => 'Necessities',
+            'necessities' => Item::where('category', 'necessities')->orderBy('created_at', 'desc')->paginate(12),
+        ];
+
+        return view('pages.necessities')->with('datas', $datas);
     }
     public function promos(){
-        $title = 'Promos';
-        return view('pages.promos')->with('title', $title);
+        $datas = [
+            'title' => 'Promos',
+            'promos' => Item::where('is_promo', 1)->orderBy('created_at', 'desc')->paginate(12),
+        ];
+
+        return view('pages.promos')->with('datas', $datas);
     }
     public function register(){
         $title = 'Register';

@@ -84,6 +84,7 @@ class ItemsController extends Controller
     public function show($id)
     {
         // Showing each items
+        // Use resource controller
     }
 
     /**

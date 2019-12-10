@@ -60,7 +60,7 @@
         <input type="file" class="custom-file-input" id="photo" name="photo" autocomplete="off">
         <label class="custom-file-label" for="photo">Pilih Gambar Item</label>
       </div>
-      <small>Must be .jpeg, .png, .bmp, .gif, or .svg</small>
+      <small>Must be .jpeg, .png, .bmp, or .gif</small>
     </div>
     @error('photo')
       <div class="alert-danger alert mb-3"><small><strong>{{ $message }}</strong></small></div>
