@@ -14,7 +14,7 @@ class CreateShoppingCartsTable extends Migration
     public function up()
     {
         Schema::create('shopping_carts', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->bigInteger('id');
             $table->bigInteger('customer_id')->foreign()->references('id')->on('customers');
             $table->bigInteger('item_id')->foreign()->references('id')->on('items');
             $table->bigInteger('courier_id')->foreign()->references('id')->on('couriers');
