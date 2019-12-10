@@ -8,5 +8,5 @@ class ShoppingCart extends Model
 {
     // Defining Model
     protected $table = 'shopping_carts';
-    protected $primaryKey = 'id';
+    public $incrementing = false;
 }

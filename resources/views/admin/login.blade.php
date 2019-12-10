@@ -15,7 +15,7 @@
               <div class="col-lg-10 mx-auto">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h3 text-gray-900 mb-4">Halaman Admin <span class="text-coder">Coder Institute</span></h1>
+                    <h1 class="h3 text-gray-900 mb-4">Halaman Admin <span class="text-coder">Supermarket.id</span></h1>
                   </div>
                   <form class="user">
                     <div class="form-group">
