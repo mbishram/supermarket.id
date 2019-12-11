@@ -105,3 +105,42 @@
 .image-sm{
   height: 10rem !important;
 }
+
+.image-checkout{
+  margin: 0.7rem auto !important;
+}
+
+.button-checkout{
+	padding:10px 30px;
+	color:#fff;
+	font-size:1em;
+	background:#212121;
+  text-decoration:none;
+  border: none;
+}
+.button-checkout:hover{
+	background:#fe9126;
+}
+.button-checkout span {
+    right: -.5em;
+    top: 0.1em;
+    color: white;
+}
+
+.button-checkout-none{
+	padding:10px 30px;
+	color:#fff;
+	font-size:1em;
+	background:#212121;
+  text-decoration:none;
+  border: none;
+}
+.button-checkout-none:hover{
+  background:#fe9126; 
+	color:#fff;
+}
+.button-checkout-none span {
+    left: -.5em;
+    top: 0.1em;
+    color: white;
+}

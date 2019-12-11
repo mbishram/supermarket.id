@@ -11,6 +11,9 @@
   </div>
 </div>
 <!-- //breadcrumbs -->
+@if(session('success'))
+  <div class="alert-success alert mb-0"><small><strong>{{ session('success') }}</strong></small></div>
+@endif
 <!--- products --->
 <div class="products">
   <div class="container">
@@ -39,14 +42,14 @@
       </div> --}}
       <div class="agile_top_brands_grids">
         {{-- One Item --}}
-        @foreach ($datas['foods'] as $food)
+        @foreach ($datas['items'] as $item)
 
         <div class="col-md-3 top_brand_left mb-4">
           <div class="hover14 column">
             <div class="agile_top_brand_left_grid">
               <div class="agile_top_brand_left_grid_pos">
                 {{-- Offers --}}
-                @if ( $food->is_promo == 1 )
+                @if ( $item->is_promo == 1 )
                   <img src="images/offer.png" alt=" " class="img-responsive" />
                 @endif
               </div>
@@ -56,30 +59,25 @@
                   {{-- Information --}}
                   <div class="snipcart-item block" >
                     <div class="snipcart-thumb">
-                      <a href="products"><img title="" alt="" src="/storage/photos/{{ $food->photo }}" class="image-sm" /></a>		
-                      <p>{{ $food->name }}</p>
-                      @if ( $food->is_promo == 1 )
-                      <h4>Rp. {{ $food->price * (70/100) }} <span>Rp. {{ $food->price }}</span></h4>
+                      <a href="products"><img title="" alt="" src="/storage/photos/{{ $item->photo }}" class="image-sm" /></a>		
+                      <p>{{ $item->name }}</p>
+                      @if ( $item->is_promo == 1 )
+                      <h4>Rp.{{ round($item->price * (70/100)) }} <span>Rp.{{ $item->price }}</span></h4>
                     @else
-                      <h4>Rp. {{ $food->price }}</h4>
+                      <h4>Rp.{{ $item->price }}</h4>
                     @endif
                     </div>
 
                     {{-- Button --}}
                     <div class="snipcart-details top_brand_home_details">
-                      <form action="#" method="post">
+                      <form action="add" method="post">
                         <fieldset>
-                          <input type="hidden" name="cmd" value="_cart" />
-                          <input type="hidden" name="add" value="1" />
-                          <input type="hidden" name="business" value=" " />
-                          <input type="hidden" name="item_name" value="Fortune Sunflower Oil" />
-                          <input type="hidden" name="amount" value="20.99" />
-                          <input type="hidden" name="discount_amount" value="1.00" />
-                          <input type="hidden" name="currency_code" value="USD" />
-                          <input type="hidden" name="return" value=" " />
-                          <input type="hidden" name="cancel_return" value=" " />
+                          <input type="hidden" name="item_id" value="{{ $item->id }}" />
+                          <input type="hidden" name="item_price" value="{{ ($item->is_promo == 1) ? $item->price * (70/100) : $item->price }}" />
                           <input type="submit" name="submit" value="Add to cart" class="button" />
                         </fieldset>
+  
+                        @csrf
                       </form>
                     </div>
                   </div>
@@ -94,7 +92,7 @@
       </div>
       <nav class="numbering">
         <nav class="numbering">
-          {{ $datas['foods']->links() }}
+          {{ $datas['items']->links() }}
         </nav>
       </nav>
     </div>

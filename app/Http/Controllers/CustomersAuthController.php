@@ -6,10 +6,21 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use App\Customer;
+use App\ShoppingCart;
 
 class CustomersAuthController extends Controller
 {
+    private $cart_id;
 
+    public function __construct(){
+        $latest_cart = ShoppingCart::latest('id')->first();
+
+        if ($latest_cart !== null) {
+            $this->cart_id = ($latest_cart->id)+1;
+        } else {
+            $this->cart_id = 1;
+        }
+    }
 
     public function register(Request $request){
         // Check if the inputs are valid. Return error if it's not
@@ -37,10 +48,13 @@ class CustomersAuthController extends Controller
     }
 
     public function login(Request $request){
-
         $credentials = $request->only('email', 'password');
 
         if (Auth::attempt($credentials)) {
+            $customer = Customer::find(Auth::id());
+            $customer->shopping_cart_id = $this->cart_id;
+            $customer->save();
+            
             return redirect()->intended('/')->with('success', 'Anda telah berhasi login!');
         } else {
             return redirect('login')->with('login_failed', 'Akun tidak ditemukan atau password salah');

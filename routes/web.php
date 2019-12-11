@@ -47,4 +47,5 @@ Route::post('logout', 'CustomersAuthController@logout');
 Route::post('/dashboard/items', 'ItemsController@store');
 
 // Checkout
-Route::post('/checkout', 'CheckoutsController@checkout')->middleware('auth');
+Route::post('add', 'CheckoutsController@add')->middleware('auth');
+Route::post('checkout', 'CheckoutsController@checkout');
