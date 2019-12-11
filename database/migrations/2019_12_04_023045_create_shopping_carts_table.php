@@ -16,7 +16,6 @@ class CreateShoppingCartsTable extends Migration
         Schema::create('shopping_carts', function (Blueprint $table) {
             $table->bigInteger('id');
             $table->bigInteger('item_id')->foreign()->references('id')->on('items');
-            $table->integer('amount');
             $table->boolean('is_shipped');
             $table->timestamps();
         });
