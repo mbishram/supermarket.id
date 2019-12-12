@@ -113,8 +113,8 @@
 <div class="about-slid agileits-w3layouts"> 
   <div class="container">
     <div class="about-slid-info"> 
-      <h2>Lorem Ipsum is that it has a moreless normal</h2>
-      <p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks on the Internet tend as necessary, making this the first true generator on the Internet embarrassing hidden in the middle of text Lorem Ipsum generators on the Internet tend to repeat predefinedchunks as necessary, making this the first true generator on the.</p>
+      <h2>Supermarket.id</h2>
+      <p>Supermarket.id adalah salah satu platform jual beli online yang menyediakan berbagai macam kebutuhan rumah tangga anda mulai dari bahan makanan, bumbu dapur, dan berbagai macam peralatan rumah tangga yang anda butuhkan yang mana setiap produk yang kami tawarkan merupakan produk berkualitas tinggi, sesuai dengan komitmen kami untuk selalu memberikan kemudahan, Kualitas, dan kenyamanan berbelanja terbaik pada anda.</p>
     </div>
   </div>
 </div>
@@ -125,9 +125,9 @@
     <h3 class="w3_agile_header">Team Kami</h3>
     <div class="team-agileitsinfo">
       <div class="col-md-3 about-team-grids">
-        <img src="images/t4.jpg" alt=""/>
+        <img src="images/user_bishram.jpeg" alt=""/>
         <div class="team-w3lstext">
-          <h4><span>Muh. Bishram</span></h4>
+          <h4><span class="color-white">Muh. Bishram</span></h4>
           <p></p>
         </div>
         <div class="social-icons caption"> 
@@ -140,9 +140,9 @@
         </div>
       </div>
       <div class=" col-md-3 about-team-grids">
-        <img src="images/t2.jpg" alt=""/>
+        <img src="images/user_asjar.jpeg" alt=""/>
         <div class="team-w3lstext">
-          <h4><span>Achmad Asjar</span></h4>
+          <h4><span class="color-white">Achmad Asjar</span></h4>
           <p></p>
         </div>
         <div class="social-icons caption"> 
@@ -155,9 +155,9 @@
         </div>
       </div>
       <div class="col-md-3 about-team-grids">
-        <img src="images/t1.jpg" alt=""/>
+        <img src="images/user_alfa.jpeg" alt=""/>
         <div class="team-w3lstext">
-          <h4><span>Muh. Alfarabi</span></h4>				
+          <h4><span class="color-white">Muh. Alfarabi</span></h4>				
           <p></p>
         </div>
         <div class="social-icons caption"> 
@@ -170,9 +170,9 @@
         </div>
       </div>
       <div class="col-md-3 about-team-grids">
-        <img src="images/t3.jpg" alt=""/>
+        <img src="images/user_akib.jpeg" alt=""/>
         <div class="team-w3lstext">
-          <h4><span>Muh. Akib</span></h4>
+          <h4><span class="color-white">Muh. Akib</span></h4>
           <p></p>
         </div>
         <div class="social-icons caption"> 
